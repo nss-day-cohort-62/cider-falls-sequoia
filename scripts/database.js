@@ -50,6 +50,8 @@ const database ={
     ]
 }
 
+// this is a change on freya's branch
+
 export const getGuests = () => {
     return database.guests.map(guest => ({...guest}))
 }
