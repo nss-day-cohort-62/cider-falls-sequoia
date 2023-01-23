@@ -1,1 +1,51 @@
-here is empty content by Stephen
+#header {
+    text-align: center;
+    margin: 0 20px 0 20px;
+    background-color: aquamarine;
+    padding: 10px;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainContainer {
+    border: 1px dotted blue;
+    display: flex;
+    margin: 20px;
+}
+
+
+.parkAreaContainer {
+    border: 1px dotted red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.park_card {
+    border: 1px dotted green;
+    width: 25%;
+    padding: 10px;
+    margin: 8px;
+}
+
+
+.guestListContainer {
+    border: 1px dotted purple;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px 0 20px;
+    background-color: aquamarine;
+
+}
+
+
+

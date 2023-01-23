@@ -6,6 +6,8 @@ const database ={
         { id: 4, firstName: "Joe", lastName: "FaBeets", parkAreaId: 4},
         { id: 5, firstName: "John", lastName: "Bonham", parkAreaId: 6},
         { id: 6, firstName: "Amy", lastName: "Lee", parkAreaId: 5},
+        { id: 7, firstName: "Larry", lastName: "Jones", parkAreaId: 5},
+        
     ],
     parkAreas: [
         { id: 1, section: "Lodge", amenities: "Hotel and Restaurant", direction: "Northwest"},

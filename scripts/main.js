@@ -1,17 +1,18 @@
 import { Guests } from "./Guests.js"
 import { ParkAreasDisplay } from "./ParkAreas.js"
 
-const mainContainer = document.querySelector("#container")
+const mainContainer = document.querySelector("#mainContainer")
 
 
 
 const ciderContent = `
-<article class="guest">
+<article class="parkAreaContainer">
+${ParkAreasDisplay()}
+</article>
+
+<article class="guestListContainer">
 <h2>Guest List</h2>
 ${Guests()}
-</article>
-<article class="parkArea">
-${ParkAreasDisplay()}
 </article>
 `
 
