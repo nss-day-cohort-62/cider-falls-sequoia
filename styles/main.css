@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#mainContainer {
+.parkAndGuests {
     border: 1px dotted blue;
     display: flex;
     margin: 20px;
@@ -36,7 +36,7 @@ body {
 .guestListContainer {
     border: 1px dotted purple;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 #footer {
@@ -48,4 +48,12 @@ body {
 }
 
 
+.services {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-evenly;
+}
 
+h2 {
+    text-align: center;
+}

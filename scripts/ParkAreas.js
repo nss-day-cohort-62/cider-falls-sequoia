@@ -15,7 +15,7 @@ document.addEventListener(
             for (const parkArea of parkAreas){
                 if (parkArea.id === parseInt(parkId)){
                     const numberOfGuests = guestLocation(parkArea)
-                    window.alert(`There are ${numberOfGuests} guests in ${parkArea.section}`)
+                    window.alert(`There are ${numberOfGuests} guest(s) in ${parkArea.section}`)
                 }
             }
         }
